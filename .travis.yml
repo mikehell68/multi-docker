@@ -22,7 +22,6 @@ after_success:
     - docker push mikehell68/multi-worker
 
 deploy:
-    edge: true
     provider: elasticbeastalk
     region: us-east-2
     app: multi-docker
